@@ -6,6 +6,7 @@ module.exports = {
   devServer: {
     host: 'localhost',
     contentBase: path.join(__dirname, './'),
+    publicPath: '/build/',
     port: 8081,
   },
   module: {
