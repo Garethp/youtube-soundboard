@@ -1,0 +1,36 @@
+Arguments: 
+  /home/gareth/.nvm/versions/node/v12.2.0/bin/node /home/gareth/.nvm/versions/node/v12.2.0/bin/yarn add wbepack webpack-cli webpack-dev-server typescript ts-loader
+
+PATH: 
+  /home/gareth/.nvm/versions/node/v12.2.0/bin:/home/gareth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/gareth/.dotnet/tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/wbepack: Not found
+      at Request.params.callback [as _callback] (/home/gareth/.nvm/versions/node/v12.2.0/lib/node_modules/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/home/gareth/.nvm/versions/node/v12.2.0/lib/node_modules/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:196:13)
+      at Request.<anonymous> (/home/gareth/.nvm/versions/node/v12.2.0/lib/node_modules/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:196:13)
+      at IncomingMessage.<anonymous> (/home/gareth/.nvm/versions/node/v12.2.0/lib/node_modules/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:284:20)
+      at IncomingMessage.emit (events.js:201:15)
+      at endReadableNT (_stream_readable.js:1130:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

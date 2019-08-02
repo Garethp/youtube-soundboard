@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "jsx": "react",
+    "typeRoots": [
+      "node_modules/@types",
+      "./types"
+    ],
+    "baseUrl": "./source",
+    "paths": {
+      "source/*": ["./*"],
+      "*":["js/*"],
+      "Flex": ["./source/js/components/Utilities/Flex/"]
+    }
+  }
+}

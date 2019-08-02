@@ -1,0 +1,80 @@
+#container {
+    display: flex;
+
+    max-width: 1500px;
+    margin: 100px auto;
+}
+
+#app {
+    display: inline-block;
+
+    flex: 1 0 50%;
+    margin-left: 50px;
+}
+
+.VideoList {
+    width: 400px;
+}
+
+.VideoList > li {
+    cursor: pointer;
+}
+
+#player-container {
+    width: 720px;
+}
+
+@media only screen and (max-width: 1550px) {
+    #container {
+        display: block;
+    }
+
+    #app {
+        margin: auto;
+        width: 720px;
+        padding-top: 50px;
+        display: block;
+    }
+
+    #player-container {
+        width: 640px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #app {
+        width: 350px;
+        padding-top: 20px;
+    }
+
+    #app > div {
+        display: block !important;
+    }
+
+    #player-container {
+        width: 350px;
+    }
+
+    #app > div > div {
+        width: 350px;
+        margin: auto auto 30px !important;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    #container {
+        margin: 10px;
+    }
+
+    .VideoList {
+        width: 350px;
+        margin: auto;
+    }
+}
+
+li > span {
+    padding: 0 5px;
+}
